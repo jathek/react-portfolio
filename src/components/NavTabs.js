@@ -20,6 +20,11 @@ export default function NavTabs({ currentPage, handlePageChange }) {
             Portfolio
             </a>
           </li>
+          <li>
+            <a href="#resume" onClick={() => handlePageChange("Resume")}>
+            Resume
+            </a>
+          </li>
         </ul>
       </nav>
     </header>

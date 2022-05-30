@@ -16,8 +16,8 @@ export default function NavTabs({ currentPage, handlePageChange }) {
             </a>
           </li>
           <li>
-            <a href="#work" onClick={() => handlePageChange("Work")}>
-              Work
+            <a href="#portfolio" onClick={() => handlePageChange("Portfolio")}>
+            Portfolio
             </a>
           </li>
         </ul>

@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer() {
   return (
       <footer id="contact_me">
-        <h4>Contact Me</h4>
+        <h4>Links</h4>
         <section>
           <ul>
             <li>

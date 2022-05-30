@@ -17,11 +17,6 @@ export default function Footer() {
             <li>
               <a href="https://github.com/nearcatch">Github</a>
             </li>
-            <li>
-              <a href="https://www.dropbox.com/s/kukb8yea4xywdkf/JT20220414.pdf?dl=0">
-                Resume
-              </a>
-            </li>
           </ul>
         </section>
       </footer>

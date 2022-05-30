@@ -1,38 +1,304 @@
-.App {
-  text-align: center;
+:root {
+  --primary: darkblue;
+  --secondary: #272727;
+  --tertiary: #d9dcd6;
+  --quaternary: rgb(132, 192, 172);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* set font-size to 62.5 so rem * 10 is pixels */
+html {
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* default body bg color */
+body {
+  font-size: 1.6rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 2rem;
+  background-color: var(--tertiary);
+  color: var(--secondary);
+}
+
+/* header - background and font */
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--secondary);
+  color: var(--tertiary);
+}
+
+header > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--quaternary);
+  color: var(--secondary);
+}
+
+header img {
+  height: 10rem;
+  padding: 1rem;
+}
+
+header h1 {
+  font-size: 3.2rem;
+  display: inline;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* nav links - padding/margin, font, list */
+header nav {
+  padding: 2rem;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2rem;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding: 1rem;
+}
+
+header nav ul li a {
+  color: var(--quaternary);
+  text-decoration: none;
+  border-bottom: 0.2rem solid var(--quaternary);
+}
+
+footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
+  padding: 2rem 2rem 4rem;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+}
+
+footer h4 {
+  flex: 0 0 90%;
+  width: 90%;
+  text-align: center;
+  border-bottom: 0.3rem solid var(--secondary);
+  padding: 1rem;
+  font-size: 4rem;
+}
+
+footer section {
+  flex: 0 0 90%;
+  width: 90%;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2rem;
+}
+
+footer section ul {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  list-style-type: none;
 }
 
-.App-link {
-  color: #61dafb;
+footer section ul li {
+  display: inline-block;
+  padding: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+footer section ul li a {
+  color: var(--secondary);
+  text-decoration: none;
+  border-bottom: 0.2rem solid var(--secondary);
+}
+
+/* main page content */
+main {
+  display: block;
+  padding: 2rem 2rem 0rem;
+}
+
+.banner {
+  width: 100%;
+  height: 5vh;
+  background: center / cover no-repeat url(./images/blue-banner.jpg);
+}
+
+/* sections under main */
+main > section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem 0px;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+}
+
+main > section > h2 {
+  flex: 0 0 90%;
+  width: 90%;
+  text-align: center;
+  border-bottom: 0.3rem solid var(--secondary);
+  margin-right: 1rem;
+  padding: 1rem;
+  font-size: 4rem;
+}
+
+main > section > p {
+  flex: 0 0 90%;
+  width: 90%;
+  padding: 1rem;
+  margin: auto;
+  text-align: center;
+  line-height: 1.5;
+}
+
+/* work cards */
+.workflex {
+  flex: 0 0 90%;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.workflex .card {
+  border: 0.4rem solid var(--quaternary);
+  height: 15rem;
+  margin: 1rem;
+  color: var(--secondary);
+  background: center / cover no-repeat url(./images/project1.png);
+  filter: grayscale(50%);
+  transition: filter 0.15s ease-in-out;
+}
+.workflex .card:first-child {
+  width: 100%;
+  height: 25rem;
+}
+.workflex .card:not(:first-child) {
+  width: 100%;
+}
+
+.workflex .card:hover {
+  filter: grayscale(0%);
+}
+
+.workflex .card#weather {
+  background: center / cover no-repeat url(./images/hw6.png);
+}
+
+.workflex .card#schedule {
+  background: center / cover no-repeat url(./images/hw5.png);
+}
+
+.workflex .card#quiz {
+  background: center / cover no-repeat url(./images/hw4.png);
+}
+
+.workflex .card#pw {
+  background: center / cover no-repeat url(./images/hw3.png);
+}
+
+.workflex .card-caption {
+  position: absolute;
+  bottom: 1rem;
+  padding: 0.4rem;
+  background-color: var(--quaternary);
+}
+.workflex .card-caption a {
+  color: var(--secondary);
+  text-decoration: none;
+}
+.workflex .card-caption a:hover {
+  text-decoration: none;
+  border-bottom: 0.2rem solid var(--secondary);
+}
+
+
+@media screen and (min-width: 992px) {
+  main {
+    padding: 0rem;
+    width: 80vw;
   }
-  to {
-    transform: rotate(360deg);
+  footer {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem;
+    width: 80vw;
+}
+  footer h4 {
+    flex: 0 0 30%;
+    width: 30%;
+    text-align: right;
+    border-right: 3px solid var(--secondary);
+    border-bottom: none;
+  }
+  footer section {
+    flex: 0 0 70%;
+    width: 70%;
+  }
+  main > section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  main > section > h2 {
+    flex: 0 0 30%;
+    width: 30%;
+    text-align: right;
+    border-right: 3px solid var(--secondary);
+    border-bottom: none;
+  }
+
+  main > section > p {
+    flex: 0 0 70%;
+    width: 70%;
+    text-align: right;
+  }
+
+  /* work cards */
+  .workflex {
+    flex: 0 0 70%;
+    width: 70%;
+    justify-content: space-between;
+  }
+  .workflex .card:not(:first-child) {
+    flex: 0 0 46%;
+    width: 46%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem 1rem 0px;
+  }
+  header > div {
+    border-radius: 0px 0.3rem 0.3rem 0px;
+  }
+  footer section ul {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
 }

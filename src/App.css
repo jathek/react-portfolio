@@ -178,7 +178,6 @@ main > section > p {
   height: 15rem;
   margin: 1rem;
   color: var(--secondary);
-  background: center / cover no-repeat url(./images/project1.png);
   filter: grayscale(50%);
   transition: filter 0.15s ease-in-out;
 }
@@ -192,22 +191,6 @@ main > section > p {
 
 .workflex .card:hover {
   filter: grayscale(0%);
-}
-
-.workflex .card#weather {
-  background: center / cover no-repeat url(./images/hw6.png);
-}
-
-.workflex .card#schedule {
-  background: center / cover no-repeat url(./images/hw5.png);
-}
-
-.workflex .card#quiz {
-  background: center / cover no-repeat url(./images/hw4.png);
-}
-
-.workflex .card#pw {
-  background: center / cover no-repeat url(./images/hw3.png);
 }
 
 .workflex .card-caption {

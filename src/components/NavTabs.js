@@ -25,6 +25,11 @@ export default function NavTabs({ currentPage, handlePageChange }) {
             Resume
             </a>
           </li>
+          <li>
+            <a href="#contact" onClick={() => handlePageChange("Contact")}>
+            Contact
+            </a>
+          </li>
         </ul>
       </nav>
     </header>

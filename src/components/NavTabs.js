@@ -11,23 +11,39 @@ export default function NavTabs({ currentPage, handlePageChange }) {
       <nav>
         <ul>
           <li>
-            <a href="#about_me" onClick={() => handlePageChange("About")}>
+            <a
+              href="#about_me"
+              onClick={() => handlePageChange("About")}
+              className={currentPage === "About" ? "glow" : ""}
+            >
               About Me
             </a>
           </li>
           <li>
-            <a href="#portfolio" onClick={() => handlePageChange("Portfolio")}>
-            Portfolio
+            <a
+              href="#portfolio"
+              onClick={() => handlePageChange("Portfolio")}
+              className={currentPage === "Portfolio" ? "glow" : ""}
+            >
+              Portfolio
             </a>
           </li>
           <li>
-            <a href="#resume" onClick={() => handlePageChange("Resume")}>
-            Resume
+            <a
+              href="#resume"
+              onClick={() => handlePageChange("Resume")}
+              className={currentPage === "Resume" ? "glow" : ""}
+            >
+              Resume
             </a>
           </li>
           <li>
-            <a href="#contact" onClick={() => handlePageChange("Contact")}>
-            Contact
+            <a
+              href="#contact"
+              onClick={() => handlePageChange("Contact")}
+              className={currentPage === "Contact" ? "glow" : ""}
+            >
+              Contact
             </a>
           </li>
         </ul>

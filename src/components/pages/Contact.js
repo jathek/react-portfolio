@@ -80,7 +80,7 @@ export default function Contact() {
         </button>
         {errorMessage && (
           <div>
-            <p className="error-text">{errorMessage}</p>
+            <h3>{errorMessage}</h3>
           </div>
         )}
       </form>

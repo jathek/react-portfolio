@@ -16,7 +16,7 @@ export default function NavTabs({ currentPage, handlePageChange }) {
               onClick={() => handlePageChange("About")}
               className={currentPage === "About" ? "glow" : ""}
             >
-              About Me
+              About
             </a>
           </li>
           <li>

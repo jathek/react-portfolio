@@ -100,7 +100,6 @@ footer h4 {
   flex: 0 0 90%;
   width: 90%;
   text-align: center;
-  border-bottom: 0.3rem solid var(--secondary);
   padding: 1rem;
   font-size: 4rem;
 }
@@ -128,7 +127,6 @@ footer section ul li {
 footer section ul li a {
   color: var(--secondary);
   text-decoration: none;
-  border-bottom: 0.2rem solid var(--secondary);
 }
 
 /* main page content */
@@ -233,6 +231,8 @@ main > section > p {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding: 1rem;
+  margin: auto;
 }
 #contact-form * {
   margin-bottom: 2rem;
@@ -240,7 +240,7 @@ main > section > p {
   border-width: 1px;
 }
 #contact-form input {
-  width: 33%;
+  width: 45%;
   padding: 1rem;
 }
 #contact-form textarea,
@@ -276,8 +276,6 @@ main > section > p {
     flex: 0 0 30%;
     width: 30%;
     text-align: right;
-    border-right: 3px solid var(--secondary);
-    border-bottom: none;
   }
   footer section {
     flex: 0 0 70%;
@@ -309,14 +307,15 @@ main > section > p {
     width: 70%;
     justify-content: space-between;
   }
+  .workflex .card:not(:first-child) {
+    flex: 0 0 46%;
+    width: 46%;
+  }
+
   #contact-form {
     flex: 0 0 70%;
     width: 70%;
     justify-content: space-between;
-  }
-  .workflex .card:not(:first-child) {
-    flex: 0 0 46%;
-    width: 46%;
   }
 }
 

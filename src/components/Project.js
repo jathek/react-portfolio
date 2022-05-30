@@ -1,7 +1,5 @@
 import React from "react";
 export default function Project({ id, name, link, repo, image }) {
-  console.log(image)
-
   return (
     <section
       className="card"

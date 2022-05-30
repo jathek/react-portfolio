@@ -40,7 +40,6 @@ export default function Portfolio() {
       image: hw3,
     },
   ];
-  console.log(projects);
   return (
     <section id="portfolio">
       <h2>Portfolio</h2>

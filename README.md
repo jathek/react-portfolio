@@ -30,7 +30,7 @@
   <p align="center">
     <a href="https://github.com/nearcatch/react-portfolio"><strong>Explore the docs »</strong></a>
     <br />
-    <a href="https://nearcatch.github.io/react-portfolio/">View Portfolio</a>
+    <a href="https://portfolio.jathek.com/">View Portfolio</a>
     ·
     <a href="https://github.com/nearcatch/react-portfolio/issues">Report Bug</a>
   </p>
@@ -67,7 +67,7 @@
 A project portfolio written in React.
 
 <div align="center">
-    <a href="https://nearcatch.github.io/react-portfolio/"><img style="width: 50%;" src="./assets/readme/full-page-screenshot.png" /></a>
+    <a href="https://portfolio.jathek.com/"><img style="width: 50%;" src="./assets/readme/full-page-screenshot.png" /></a>
 </div>
 
 ### Built With
@@ -92,7 +92,7 @@ A project portfolio written in React.
 
 ## Usage
 
-Visit the portfolio [here](https://nearcatch.github.io/react-portfolio/).
+Visit the portfolio [here](https://portfolio.jathek.com/).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

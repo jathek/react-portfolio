@@ -37,7 +37,7 @@ export default function NavTabs({ currentPage, handlePageChange }) {
               Resume
             </a>
           </li>
-          <li>
+          {/* <li>
             <a
               href="#contact"
               onClick={() => handlePageChange("Contact")}
@@ -45,7 +45,7 @@ export default function NavTabs({ currentPage, handlePageChange }) {
             >
               Contact
             </a>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </header>

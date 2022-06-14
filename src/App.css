@@ -164,6 +164,10 @@ main > section > p {
   line-height: 1.5;
 }
 
+section#about_me p {
+  white-space: pre-wrap;
+}
+
 /* work cards */
 .workflex {
   flex: 0 0 90%;

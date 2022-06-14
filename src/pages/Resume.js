@@ -7,7 +7,7 @@ export default function Resume() {
       <p>
         Jason has experience in HTML, CSS, JavaScript, jQuery, APIs, Node, Express, MySQL,
         Sequelize, MongoDB, Mongoose, and React.{" "}
-        <a href="https://www.dropbox.com/s/kukb8yea4xywdkf/JT20220414.pdf?dl=0">
+        <a href="https://www.dropbox.com/s/otbj4dhfnq8iao9/jason-thekkekara-resume.docx?dl=0">
           Download his resume here.
         </a>
       </p>

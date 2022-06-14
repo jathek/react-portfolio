@@ -155,7 +155,7 @@ main > section > h2 {
   font-size: 4rem;
 }
 
-main > section > p {
+main > section p {
   flex: 0 0 90%;
   width: 90%;
   padding: 1rem;

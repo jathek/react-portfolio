@@ -28,11 +28,11 @@
 <h3 align="center">React Portfolio</h3>
 
   <p align="center">
-    <a href="https://github.com/nearcatch/react-portfolio"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/jathek/react-portfolio"><strong>Explore the docs »</strong></a>
     <br />
     <a href="https://portfolio.jathek.com/">View Portfolio</a>
     ·
-    <a href="https://github.com/nearcatch/react-portfolio/issues">Report Bug</a>
+    <a href="https://github.com/jathek/react-portfolio/issues">Report Bug</a>
   </p>
 </div>
 
@@ -108,9 +108,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Jason Thekkekara - [LinkedIn][linkedin-url] - [Github](https://github.com/nearcatch)
+Jason Thekkekara - [LinkedIn][linkedin-url] - [Github](https://github.com/jathek)
 
-Project Link: [https://github.com/nearcatch/react-portfolio](https://github.com/nearcatch/react-portfolio)
+Project Link: [https://github.com/jathek/react-portfolio](https://github.com/jathek/react-portfolio)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -125,16 +125,16 @@ Project Link: [https://github.com/nearcatch/react-portfolio](https://github.com/
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/nearcatch/react-portfolio.svg?style=for-the-badge
-[contributors-url]: https://github.com/nearcatch/react-portfolio/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/nearcatch/react-portfolio.svg?style=for-the-badge
-[forks-url]: https://github.com/nearcatch/react-portfolio/network/members
-[stars-shield]: https://img.shields.io/github/stars/nearcatch/react-portfolio.svg?style=for-the-badge
-[stars-url]: https://github.com/nearcatch/react-portfolio/stargazers
-[issues-shield]: https://img.shields.io/github/issues/nearcatch/react-portfolio.svg?style=for-the-badge
-[issues-url]: https://github.com/nearcatch/react-portfolio/issues
-[license-shield]: https://img.shields.io/github/license/nearcatch/react-portfolio.svg?style=for-the-badge
-[license-url]: https://github.com/nearcatch/react-portfolio/blob/main/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/jathek/react-portfolio.svg?style=for-the-badge
+[contributors-url]: https://github.com/jathek/react-portfolio/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/jathek/react-portfolio.svg?style=for-the-badge
+[forks-url]: https://github.com/jathek/react-portfolio/network/members
+[stars-shield]: https://img.shields.io/github/stars/jathek/react-portfolio.svg?style=for-the-badge
+[stars-url]: https://github.com/jathek/react-portfolio/stargazers
+[issues-shield]: https://img.shields.io/github/issues/jathek/react-portfolio.svg?style=for-the-badge
+[issues-url]: https://github.com/jathek/react-portfolio/issues
+[license-shield]: https://img.shields.io/github/license/jathek/react-portfolio.svg?style=for-the-badge
+[license-url]: https://github.com/jathek/react-portfolio/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/jason-thekkekara
-[product-screenshot]: https://raw.githubusercontent.com/nearcatch/react-portfolio/main/assets/readme/full-page-screenshot.png
+[product-screenshot]: https://raw.githubusercontent.com/jathek/react-portfolio/main/assets/readme/full-page-screenshot.png

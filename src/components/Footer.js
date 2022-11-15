@@ -7,7 +7,7 @@ export default function Footer() {
       <section>
         <ul>
           <li>
-            <a href="mailto:nearcaught@gmail.com">
+            <a href="mailto:jathekkek@gmail.com">
               <i className="fa-solid fa-square-envelope fa-2xl"></i>
             </a>
           </li>
@@ -17,7 +17,7 @@ export default function Footer() {
             </a>
           </li>
           <li>
-            <a href="https://github.com/nearcatch">
+            <a href="https://github.com/jathek">
               <i className="fa-brands fa-github-square fa-2xl"></i>
             </a>
           </li>
